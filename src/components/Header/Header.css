@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
+    width: 70%;
     margin-right: 7%
 }
 .header__logo{
@@ -30,7 +30,7 @@
     padding: 3px 10px;
 }
 .header__icons{
-width: 40%;
+width: 30%;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -41,7 +41,4 @@ align-items: center;
 }
 .profile__img{
     border-radius: 50%;
-}
-.icon__item{
-    padding: 0 12px;
 }
