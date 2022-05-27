@@ -1,0 +1,37 @@
+#story{
+    height: 120px;
+    width: 100%;
+    border: 1px rgb(226, 223, 223) solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#story img{
+    border-radius: 50%;
+    pointer-events: none;
+}
+.story-container ul{
+    list-style-type: none;
+    user-select: none;
+    display: flex;
+    overflow: auto;
+    
+}
+.story-container ul li{
+    margin: 10px;
+    text-align: center;
+}
+.story-container ul li .story{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    padding: 10px;
+}
+.story-container ul li span{
+    overflow: auto;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}

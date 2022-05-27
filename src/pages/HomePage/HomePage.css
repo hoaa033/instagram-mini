@@ -1,0 +1,17 @@
+.home-page__header{
+    position: fixed;
+}
+
+.home-page__row{
+    margin: 2% 12%;
+    display: flex;
+    justify-content: center;
+}
+.home-page__news{
+    width: 50%;
+    margin: 0 10px;
+}
+.home-page__user{
+    width: 40%;
+    position: fixed;
+}

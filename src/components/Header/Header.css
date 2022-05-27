@@ -1,0 +1,47 @@
+.header{
+    height:60px;
+    border-bottom: 1px solid rgb(226, 223, 223);
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin-right: 7%
+}
+.header__logo{
+    text-align: center;
+    width: 30%;
+}
+.header__search{
+    width: 40%;
+    
+}
+.header__search input {
+    background-color: #dcd7d783;
+    border-radius: 10px;
+    height: 33px;
+    border: none;
+    font-size: medium;
+    padding: 3px 10px;
+}
+.header__icons{
+width: 40%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header__icons button {
+    border: none;
+    background-color: transparent;
+}
+.profile__img{
+    border-radius: 50%;
+}
+.icon__item{
+    padding: 0 12px;
+}
