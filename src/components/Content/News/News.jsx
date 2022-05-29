@@ -3,7 +3,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import SendIcon from '@mui/icons-material/Send';
 import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { useState } from 'react';
 
@@ -11,7 +11,9 @@ import { useState } from 'react';
 function News() {
 
     const [favourite, setFavourite] = useState(false)
-    
+
+    let liked = 0;
+
 
     return (
         <div id='news'>
@@ -21,7 +23,7 @@ function News() {
                     <div className="news__user__account"><p>user__account</p></div>
                 </div>
                 <div className='news__user__icon'>
-                    <button><MoreVertIcon /></button>
+                    <button><MoreHorizIcon /></button>
                 </div>
             </div>
             <div>
@@ -33,9 +35,9 @@ function News() {
                         onClick={() => {
                             setFavourite(!favourite)
                         }}
-                       >{favourite ? <FavoriteIcon style={{ color: 'red' }}/> : <FavoriteBorderIcon />}
+                    >{favourite ? <FavoriteIcon style={{ color: 'red' }} />  : <FavoriteBorderIcon />}
                     </button>
-                    
+
                     <button className='news__icons__item'> <ChatBubbleOutlineIcon /></button>
                     <button className='news__icons__item'><SendIcon /></button>
 
@@ -44,7 +46,9 @@ function News() {
                     <button className='news__icons__item'> <BookmarkBorderIcon /></button>
                 </div>
             </div>
-
+            <div className='news__liked'>
+                <button>{favourite ? liked + 1 : liked} likes</button>
+            </div>
 
         </div>
     )

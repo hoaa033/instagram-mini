@@ -4,7 +4,7 @@ import Story from './Story/Story';
 
 function Content(){
     return(
-        <div>
+        <div className='content'>
             <Story/>
             <News/>
             <News/>

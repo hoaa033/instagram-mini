@@ -5,6 +5,7 @@
     border-radius: 7px;
     display: flex;
     flex-direction: column;
+    /* margin-left: 10%; */
 }
 .news__user{
     display: flex;
@@ -29,6 +30,8 @@
 }
 .news__user__account p{
     margin-bottom: 0;
+    font-weight: 600;
+    font-size: 14px;
 }
 .news__user__icon button{
     border: none;
@@ -49,4 +52,11 @@
 }
 .news__icons__item:hover{
     color: rgb(196, 191, 191);
+}
+.news__liked{
+    margin: 0 10px;
+}
+.news__liked button{
+    border: none;
+    background-color: transparent;
 }
