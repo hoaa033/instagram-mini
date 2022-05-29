@@ -5,8 +5,8 @@ import Content from '../../components/Content/Content';
 
 function HomePage() {
     return (
-        <div>
-            <Header className="home-page__header" />
+        <div >
+            <Header/>
             <div className='home-page__row'>
                 <div className='home-page__news'>
                 <Content/>
