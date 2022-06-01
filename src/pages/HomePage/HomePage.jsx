@@ -11,7 +11,7 @@ function HomePage() {
                 <div className='home-page__news'>
                 <Content/>
                 </div>
-                <RightNav className="home-page__user"/>
+                <RightNav/>
             </div>
         </div>
     )

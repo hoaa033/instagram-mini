@@ -17,7 +17,7 @@
     user-select: none;
     display: flex;
     overflow: auto;
-    
+    padding: 0;
 }
 .story-container ul li{
     margin: 10px;

@@ -45,7 +45,12 @@ function Header() {
                 horizontal: 'left',
               }}
             >
-              <Typography sx={{ p: 2 }}>The content of the Popover.</Typography>
+              <Typography sx={{ p: 2 }}>
+                <div className="pop-over">
+                  <span>Recent</span>
+                  <span>Clear All</span>
+                </div>
+              </Typography>
             </Popover>
           </div>
         </div>
@@ -54,7 +59,11 @@ function Header() {
           <button className="icon__item"><SendIcon /></button>
           <button className="icon__item"><AddCircleOutlineIcon /></button>
           <button className="icon__item"><ExploreIcon /></button>
-          <button className="icon__item"><FavoriteBorderIcon /></button>
+          <button className="icon__item"
+                   aria-describedby={id}
+                   variant="contained"
+                   onClick={handleClick}><FavoriteBorderIcon />
+          </button>
           <button className="icon__item">
             <img src="https://via.placeholder.com/30" alt="profile" class="profile__img" />
           </button>

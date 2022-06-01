@@ -16,7 +16,7 @@ function RightNav() {
                         <p>Switch</p>
                     </div>
                 </div>
-                <div id='right-nav__suggetion'>
+                <div id='right-nav__suggestion'>
                     <div><p>Suggetions For You</p></div>
                     <button className='suggetion__btn'>See all</button>
                 </div>
