@@ -1,7 +1,7 @@
 .right-nav__wrapper{
     position: fixed;
     top: 10%;
-    right: 10%;
+    right: 20%;
 }
 .right-nav__container{
     display: flex;
@@ -28,10 +28,13 @@
     font-size: 12px;
     color: blue;
 }
-#right-nav__suggetion{
+#right-nav__suggestion{
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
+}
+#right-nav__suggestion p {
+    margin: 0;
 }
 .suggetion__btn{
     border: none;

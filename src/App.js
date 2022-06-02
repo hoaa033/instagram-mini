@@ -1,12 +1,19 @@
 import './App.css';
 import HomePage from './pages/HomePage/HomePage';
-import 'bootstrap/dist/css/bootstrap.css';
-
+import Login from './pages/Login/Login';
 
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+      <div className='home-page'>
+        
+        <HomePage />
+      </div>
+      <div className='login'>
+      <Login />
+      </div>
+      
+
     </div>
   );
 }
